@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100svh;
+  background-color: #ECF2FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCont {
+  width: 736px;
+  height: 512px;
+  display: flex;
+  background-color: white;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.flexChild {
+  width: 368px;
+  padding: 38px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+  border-radius: 32px;
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+  h3 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #CAC9FF;
+
+  }
+  span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+
+p {
+  text-align: center;
+  max-width: 260px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.right {
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 32px;
+}
+
+.summaryTitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.scoreTable {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+  background-color: rgba(0, 187, 143, 0.05);
+  color:  rgba(0, 187, 143, 1);
+  border-radius: 12px;
+  padding: 0 16px;
+}
+
+button {
+  height: 56px;
+  width: 100%;
+  background: #303B59;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: white;
+  text-align: center;
+  border-radius: 128px;
+
+}
+
+.green {
+  background-color: rgba(0, 187, 143, 0.05);
+  color:  rgba(0, 187, 143, 1);
+}
